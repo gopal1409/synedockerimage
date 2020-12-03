@@ -1,0 +1,197 @@
+    1  git status
+    2  mkdir project
+    3  cd project/
+    4  git status
+    5  git init
+    6  git status
+    7  history
+    8  touch calc.py
+    9  touch auth
+   10  touch DS_Store
+   11  git status
+   12  history
+   13  ls
+   14  pwd
+   15  exit
+   16  yum install git
+   17  git --version
+   18  hostname
+   19  cd project/
+   20  history > gitallcommand.txt
+   21  git add .
+   22  git commit -m "git all command"
+   23  git push -u origin master
+   24  ls
+   25  cd project/
+   26  ls
+   27  git status
+   28  git add calc.py 
+   29  git commit -m "calc.py" 
+   30  git config --global user.name "Your Name"
+   31      git config --global user.email you@example.com
+   32  git config --global user.name "Your Name"
+   33  git config --global user.name "gopal"
+   34  git config --global user.email "gopal1409@gmail.com"
+   35  git commit -m "intial commit"
+   36  git log
+   37  git status
+   38  ls
+   39  ls -la
+   40  cd .git
+   41  ls
+   42  cd ..
+   43  ls
+   44  git status
+   45  gedit calc.py 
+   46  vi calc.py 
+   47  git status
+   48  git diff
+   49  git status
+   50  git add calc.py 
+   51  git commit -m "modified calc.py"
+   52  git status
+   53  git log
+   54  history
+   55  git log
+   56  git remote add origin https://github.com/gopal1409/synechron.git
+   57  git push -u origin master
+   58  ls
+   59  cd project/
+   60  git push -u origin master
+   61  git fetch origin master
+   62  cat calc.py 
+   63  git pull origin master
+   64  cat calc.py 
+   65  git push -u origin master
+   66  history
+   67  git fetch origin master
+   68  git status
+   69  git pull origin master
+   70  history
+   71  git status
+   72  touch .gitignore
+   73  vi .gitignore 
+   74  git status
+   75  vi .gitignore 
+   76  git status
+   77  cat .gitignore 
+   78  status
+   79  history
+   80  git status
+   81  git branch
+   82  git branch feature
+   83  git branch
+   84  git checkout feature
+   85  git branch
+   86  vi calc.py 
+   87  git status
+   88  git add calc.py 
+   89  git commit -m "modified feature branch"
+   90  git log
+   91  git reflog
+   92  git branch
+   93  git branch -a
+   94  git push -u origin featurea
+   95  git push -u origin feature
+   96  git branch -a
+   97  history
+   98  git branch -a
+   99  git branch thirdbranch
+  100  git branch -a
+  101  git checkout thirdbranch
+  102  git push origin thirdbranch
+  103  git branch -a
+  104  git checkout feature
+  105  git checkout master
+  106  git merge feature
+  107  git push orgin master
+  108  git push origin master
+  109  git branch
+  110  git brnach -d feature
+  111  git branch -d feature
+  112  git branch -a
+  113  git push origin --delete feature
+  114  history
+  115  git push origin --delete feature
+  116  yum install -y yum-utils
+  117  yum-config-manager     --add-repo     https://download.docker.com/linux/centos/docker-ce.repo
+  118  yum install docker-ce docker-ce-cli containerd.io
+  119  systemctl start docker
+  120  systemctl enable docker
+  121  history
+  122  systemctl status docker
+  123  docker --version
+  124  docker
+  125  docker container run --publish 80:80 --detach nginx
+  126  docker ps
+  127  docker container ls
+  128  curl localhost
+  129  docker container run --publish 81:80 --detach nginx
+  130  docker ps
+  131  docker images
+  132  docker container run --publish 82:80 --detach httpd
+  133  docker images
+  134  history
+  135  docker ps
+  136  docker run --publish --detach --name webhost nginx
+  137  docker run --publish 83:80 --detach --name webhost nginx
+  138  docker ps
+  139  docker run --publish 83:80 --detach --name webhost nginx
+  140  docker run --publish 83:80 --detach --name webhost1 nginx
+  141  docker ps
+  142  docker ps -a
+  143  history
+  144  curl localhost
+  145  docker ps
+  146  docker container log 
+  147  docker ps
+  148  docker container log webhost
+  149  docker container logs webhost
+  150  docker ps
+  151  docker container logs 45838
+  152  top
+  153  docker container top webhost
+  154  ps aux
+  155  docker container top webhost
+  156  docker container stat
+  157  docker container stats
+  158  history
+  159  docker ps
+  160  docker container stop webhost
+  161  docker ps
+  162  docker ps -a
+  163  docker container start webhost
+  164  docker ps
+  165  docker rm webhost
+  166  docker stop webhost 
+  167  docker rm webhost
+  168  history
+  169  docker ps
+  170  docker container exec -it proxy ping new_nginx
+  171  docker container exec -it new_nginx ping proxy
+  172  history
+  173  docker network ls
+  174  docker network inspect my_app_net
+  175  history
+  176  docker network create second_app_net
+  177  docker network ls
+  178  docker ps
+  179  docker network inspect my_app_net
+  180  mkdir helloworld
+  181  cd helloworld/
+  182  vi HelloWorld.java
+  183  yum install java-1.8.0-openjdk-devel
+  184  javac HelloWorld.java 
+  185  java HelloWorld
+  186  ls
+  187  vi manifest.txt
+  188  ls
+  189  jar cfm HelloWorld.jar manifest.txt HelloWorld.class 
+  190  ls
+  191  java -jar HelloWorld.jar
+  192  vi Dockerfile
+  193  docker build -t hello .
+  194  docker images
+  195  docker run hello
+  196  history
+  197  history > dockerimagecreationcommand.txt
